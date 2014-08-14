@@ -1,12 +1,63 @@
+$background-color: #f0f0f0
 $font-stack: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
 $font-weight-light: 300
-$background-color: #f0f0f0
+$nav-list-color: #f0f0f0
 
 body 
   font: 100% $font-stack
-  font-size: 2.5em
   font-weight: $font-weight-light
   background-color: $background-color
+  padding: 0
+  margin: 0
 
 h1
   font: 100% $font-stack
+  font-size: 2.5em
+  text-align: center
+
+nav
+  clear: both
+  height: 60px
+  background-color: #222
+  margin: 0
+  padding: 0
+
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+    li
+      padding: 20px
+      float: left
+      display: block
+      color: $nav-list-color
+
+p
+  line-height: 25px
+
+.col-left
+  width: 40%
+  display: table-cell
+  background-color: pink
+
+.col-right
+  width: 40%
+  display: table-cell
+  background-color: blue
+
+.row
+  width: 100%
+  clear: both
+  display: table-row
+
+.story
+  width: 40%
+  padding: 20px
+  margin-left: auto
+  background-color: #8044bb
+
+.resources
+  width: 40%
+  padding: 20px
+  margin-right: auto
+  background-color: #44bb44

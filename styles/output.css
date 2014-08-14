@@ -1,8 +1,57 @@
 body {
   font: 100% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 2.5em;
   font-weight: 300;
-  background-color: #f0f0f0; }
+  background-color: #f0f0f0;
+  padding: 0;
+  margin: 0; }
 
 h1 {
-  font: 100% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  font: 100% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 2.5em;
+  text-align: center; }
+
+nav {
+  clear: both;
+  height: 60px;
+  background-color: #222222;
+  margin: 0;
+  padding: 0; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    nav ul li {
+      padding: 20px;
+      float: left;
+      display: block;
+      color: #f0f0f0; }
+
+p {
+  line-height: 25px; }
+
+.col-left {
+  width: 40%;
+  display: table-cell;
+  background-color: pink; }
+
+.col-right {
+  width: 40%;
+  display: table-cell;
+  background-color: blue; }
+
+.row {
+  width: 100%;
+  clear: both;
+  display: table-row; }
+
+.story {
+  width: 40%;
+  padding: 20px;
+  margin-left: auto;
+  background-color: #8044bb; }
+
+.resources {
+  width: 40%;
+  padding: 20px;
+  margin-right: auto;
+  background-color: #44bb44; }
