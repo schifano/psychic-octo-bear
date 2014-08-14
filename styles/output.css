@@ -10,6 +10,10 @@ h1 {
   font-size: 2.5em;
   text-align: center; }
 
+h2 {
+  font: 100% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 2em; }
+
 nav {
   clear: both;
   height: 60px;
@@ -32,12 +36,16 @@ p {
 .col-left {
   width: 40%;
   display: table-cell;
-  background-color: pink; }
+  background-color: #8044bb;
+  border: 20px solid #f0f0f0;
+  /* background-color: pink */ }
 
 .col-right {
   width: 40%;
   display: table-cell;
-  background-color: blue; }
+  background-color: #44bb44;
+  border: 20px solid #f0f0f0;
+  /* background-color: blue */ }
 
 .row {
   width: 100%;
@@ -45,13 +53,13 @@ p {
   display: table-row; }
 
 .story {
-  width: 40%;
+  width: 60%;
   padding: 20px;
   margin-left: auto;
-  background-color: #8044bb; }
+  margin-right: auto; }
 
 .resources {
-  width: 40%;
+  width: 60%;
   padding: 20px;
-  margin-right: auto;
-  background-color: #44bb44; }
+  margin-left: auto;
+  margin-right: auto; }
